@@ -8,13 +8,13 @@ import csv
 
 # read mappings
 mappings = []
-mapping_tsv_path = Path(Path(__file__).resolve().parent, "FBBI-EDAM-mapping.tsv")
+mapping_tsv_path = Path(Path(__file__).resolve().parent, "mapping/FBBI-EDAM-mapping.tsv")
 with open(mapping_tsv_path) as file:
     mapping_file = csv.DictReader(file, delimiter="\t")
     [mappings.append(row) for row in mapping_file]
 
 # read filtered ontologies
-edam_file = Path(Path(__file__).resolve().parent, "edam_bioimaging_microscopy.ttl")
+edam_file = Path(Path(__file__).resolve().parent, "ontologies/edam_bioimaging_microscopy.ttl")
 edam = rdflib.Graph()
 edam.parse(edam_file)
 # drop non-subclass statements
@@ -25,7 +25,7 @@ for stmt in edam.triples((None, RDFS.subClassOf, None)):
 print(len(edam_class_tree))
 
 
-fbbi_file = Path(Path(__file__).resolve().parent, "fbbi_microscopy.ttl")
+fbbi_file = Path(Path(__file__).resolve().parent, "ontologies/fbbi_microscopy.ttl")
 fbbi = rdflib.Graph()
 fbbi.parse(fbbi_file)
 fbbi_class_tree = rdflib.Graph()
@@ -85,4 +85,4 @@ print(len(fbbi))
 print(len(edam))
 print(len(new_graph))
 
-new_graph.serialize("new_taxonomy.ttl")
+new_graph.serialize("ontologies/new_taxonomy.ttl")

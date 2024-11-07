@@ -7,16 +7,16 @@ import rdflib.resource
 import csv
 
 # read filtered ontologies
-edam_file = Path(Path(__file__).resolve().parent, "edam_bioimaging_microscopy.ttl")
+edam_file = Path(Path(__file__).resolve().parent, "ontologies/edam_bioimaging_microscopy.ttl")
 edam = rdflib.Graph()
 edam.parse(edam_file)
 
-fbbi_file = Path(Path(__file__).resolve().parent, "fbbi_microscopy.ttl")
+fbbi_file = Path(Path(__file__).resolve().parent, "ontologies/fbbi_microscopy.ttl")
 fbbi = rdflib.Graph()
 fbbi.parse(fbbi_file)
 
 
-proposed_file = Path(Path(__file__).resolve().parent, "new_taxonomy.ttl")
+proposed_file = Path(Path(__file__).resolve().parent, "ontologies/new_taxonomy.ttl")
 proposed = rdflib.Graph()
 proposed.parse(proposed_file)
 
@@ -103,8 +103,8 @@ proposed_top, proposed_nodes = build_class_tree(proposed, rdflib.URIRef("http://
 
 
 edam_graph = RenderTaxonomy(edam_nodes)
-edam_graph.render('edam_graph.gv', view=True) 
+edam_graph.render('ontologies/edam_graph.gv', view=True) 
 fbbi_graph = RenderTaxonomy(fbbi_nodes)
-fbbi_graph.render('fbbi_graph.gv', view=True) 
+fbbi_graph.render('ontologies/fbbi_graph.gv', view=True) 
 proposed_graph = RenderTaxonomy(proposed_nodes)
-proposed_graph.render('proposed.gv', view=True)
+proposed_graph.render('ontologies/proposed.gv', view=True)

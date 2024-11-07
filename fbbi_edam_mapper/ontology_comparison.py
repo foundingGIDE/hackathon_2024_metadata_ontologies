@@ -7,12 +7,12 @@ import rdflib.resource
 # Lexical mapping script
 
 # read filtered ontologies
-edam_file = Path(Path(__file__).resolve().parent, "edam_bioimaging_microscopy.ttl")
+edam_file = Path(Path(__file__).resolve().parent, "ontologies/edam_bioimaging_microscopy.ttl")
 edam = rdflib.Graph()
 edam.parse(edam_file)
 
 
-fbbi_file = Path(Path(__file__).resolve().parent, "fbbi_microscopy.ttl")
+fbbi_file = Path(Path(__file__).resolve().parent, "ontologies/fbbi_microscopy.ttl")
 fbbi = rdflib.Graph()
 fbbi.parse(fbbi_file)
 
