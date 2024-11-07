@@ -1,7 +1,7 @@
 # FBBI - EDAM mapper
 This contains code & data (from ontologies) to attempt to map classes from one taxonomy to another, and place unmapped classes in the correct point in the taxonomy.
 
-The main focus of this code was the FBBI and EDAM ontologies, but should be possible to generalise to deal with other ontolgies.
+The main focus of this code was the FBBI (https://ontobee.org/ontology/FBbi) and EDAM (https://ontobee.org/ontology/EDAM) ontologies, but should be possible to generalise to deal with other ontolgies.
 
 ## Installation
 
