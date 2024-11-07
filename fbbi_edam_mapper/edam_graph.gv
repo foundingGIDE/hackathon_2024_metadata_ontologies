@@ -1,0 +1,158 @@
+digraph {
+	graph [rankdir=RL]
+	edamontology_Microscopy [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Adaptive microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Adaptive microscopy" -> edamontology_Microscopy
+	"edamontology_X-ray microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_X-ray microscopy" -> edamontology_Microscopy
+	"edamontology_X-ray microtomography" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_X-ray microtomography" -> "edamontology_X-ray microscopy"
+	"edamontology_Force microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Force microscopy" -> edamontology_Microscopy
+	"edamontology_Atomic force microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Atomic force microscopy" -> "edamontology_Force microscopy"
+	"edamontology_Photonic force microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Photonic force microscopy" -> "edamontology_Force microscopy"
+	"edamontology_Traction force microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Traction force microscopy" -> "edamontology_Force microscopy"
+	"edamontology_Electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Electron microscopy" -> edamontology_Microscopy
+	"edamontology_Correlative light and electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Correlative light and electron microscopy" -> "edamontology_Electron microscopy"
+	"edamontology_Correlative light and electron microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Cryo electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Cryo electron microscopy" -> "edamontology_Electron microscopy"
+	"edamontology_Scanning electron cryomicroscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Scanning electron cryomicroscopy" -> "edamontology_Cryo electron microscopy"
+	"edamontology_Scanning electron cryomicroscopy" -> "edamontology_Scanning electron microscopy"
+	"edamontology_Electron cryotomography" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Electron cryotomography" -> "edamontology_Cryo electron microscopy"
+	"edamontology_Electron cryotomography" -> "edamontology_Electron tomography"
+	"edamontology_Transmission electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Transmission electron microscopy" -> "edamontology_Electron microscopy"
+	"edamontology_Scanning transmission electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Scanning transmission electron microscopy" -> "edamontology_Transmission electron microscopy"
+	"edamontology_Single particle cryo-electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Single particle cryo-electron microscopy" -> "edamontology_Transmission electron microscopy"
+	"edamontology_Electron tomography" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Electron tomography" -> "edamontology_Transmission electron microscopy"
+	"edamontology_Scanning electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Scanning electron microscopy" -> "edamontology_Electron microscopy"
+	"edamontology_Focused ion beam scanning electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Focused ion beam scanning electron microscopy" -> "edamontology_Scanning electron microscopy"
+	"edamontology_Serial block-face scanning electron microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Serial block-face scanning electron microscopy" -> "edamontology_Scanning electron microscopy"
+	"edamontology_Sample thinning" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Sample thinning" -> "edamontology_Electron microscopy"
+	edamontology_Ablation [color="#236A65" fontcolor="#236A65"]
+	edamontology_Ablation -> "edamontology_Sample thinning"
+	edamontology_Blotting [color="#236A65" fontcolor="#236A65"]
+	edamontology_Blotting -> "edamontology_Sample thinning"
+	edamontology_Microtomy [color="#236A65" fontcolor="#236A65"]
+	edamontology_Microtomy -> "edamontology_Sample thinning"
+	"edamontology_Light microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Light microscopy" -> edamontology_Microscopy
+	"edamontology_Interferometric microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Interferometric microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Light field microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Light field microscopy" -> "edamontology_Light microscopy"
+	edamontology_Stereoscopy [color="#236A65" fontcolor="#236A65"]
+	edamontology_Stereoscopy -> "edamontology_Light microscopy"
+	"edamontology_Non-linear microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Non-linear microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Multi-photon microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Multi-photon microscopy" -> "edamontology_Non-linear microscopy"
+	"edamontology_Multi-photon microscopy" -> "edamontology_Point-scanning microscopy"
+	"edamontology_Second-harmonic imaging microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Second-harmonic imaging microscopy" -> "edamontology_Non-linear microscopy"
+	"edamontology_Point-scanning microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Point-scanning microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Light-sheet microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Light-sheet microscopy" -> "edamontology_Point-scanning microscopy"
+	"edamontology_Light-sheet microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Light-sheet microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Near-field scanning optical microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Near-field scanning optical microscopy" -> "edamontology_Point-scanning microscopy"
+	"edamontology_Confocal microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Confocal microscopy" -> "edamontology_Point-scanning microscopy"
+	"edamontology_Confocal fluorescence microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Confocal fluorescence microscopy" -> "edamontology_Confocal microscopy"
+	"edamontology_Confocal fluorescence microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Image scanning microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Image scanning microscopy" -> "edamontology_Point-scanning microscopy"
+	"edamontology_Image scanning microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Image scanning microscopy" -> "edamontology_Fluorescence microscopy"
+	edamontology_Airyscan [color="#236A65" fontcolor="#236A65"]
+	edamontology_Airyscan -> "edamontology_Image scanning microscopy"
+	"edamontology_Re-scan confocal microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Re-scan confocal microscopy" -> "edamontology_Image scanning microscopy"
+	edamontology_Photomanipulation [color="#236A65" fontcolor="#236A65"]
+	edamontology_Photomanipulation -> "edamontology_Light microscopy"
+	"edamontology_Fluorescence recovery after photobleaching" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Fluorescence recovery after photobleaching" -> edamontology_Photomanipulation
+	"edamontology_Fluorescence recovery after photobleaching" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Förster resonance energy transfer" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Förster resonance energy transfer" -> edamontology_Photomanipulation
+	"edamontology_Förster resonance energy transfer" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Laser microdissection" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Laser microdissection" -> edamontology_Photomanipulation
+	edamontology_Photoablation [color="#236A65" fontcolor="#236A65"]
+	edamontology_Photoablation -> edamontology_Photomanipulation
+	edamontology_Photoablation -> "edamontology_Fluorescence microscopy"
+	edamontology_Photoactivation [color="#236A65" fontcolor="#236A65"]
+	edamontology_Photoactivation -> edamontology_Photomanipulation
+	"edamontology_Transmission light microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Transmission light microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Transmission light microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Dark-field microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Dark-field microscopy" -> "edamontology_Transmission light microscopy"
+	"edamontology_Dark-field microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Polarized light microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Polarized light microscopy" -> "edamontology_Transmission light microscopy"
+	"edamontology_Polarized light microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Bright-field microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Bright-field microscopy" -> "edamontology_Transmission light microscopy"
+	"edamontology_Bright-field microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_DIC microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_DIC microscopy" -> "edamontology_Transmission light microscopy"
+	"edamontology_DIC microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Phase-contrast microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Phase-contrast microscopy" -> "edamontology_Transmission light microscopy"
+	"edamontology_Phase-contrast microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Phase imaging" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Phase imaging" -> "edamontology_Transmission light microscopy"
+	"edamontology_Quantitative phase imaging" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Quantitative phase imaging" -> "edamontology_Phase imaging"
+	"edamontology_Array-based detection microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Array-based detection microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Total internal reflection fluorescence microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Total internal reflection fluorescence microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Total internal reflection fluorescence microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Widefield fluorescence microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Widefield fluorescence microscopy" -> "edamontology_Array-based detection microscopy"
+	"edamontology_Widefield fluorescence microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Deconvolution widefield microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Deconvolution widefield microscopy" -> "edamontology_Widefield fluorescence microscopy"
+	"edamontology_Fluorescence microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Fluorescence microscopy" -> "edamontology_Light microscopy"
+	"edamontology_Fluctuation based microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Fluctuation based microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Fluorescence correlation spectroscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Fluorescence correlation spectroscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Fluorescence lifetime imaging microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Fluorescence lifetime imaging microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Image correlation spectroscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Image correlation spectroscopy" -> "edamontology_Fluorescence microscopy"
+	edamontology_Fluorescence [color="#236A65" fontcolor="#236A65"]
+	edamontology_Fluorescence -> "edamontology_Fluorescence microscopy"
+	"edamontology_Ratiometric imaging" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Ratiometric imaging" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Super-resolution microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Super-resolution microscopy" -> "edamontology_Fluorescence microscopy"
+	"edamontology_Single molecule localisation microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Single molecule localisation microscopy" -> "edamontology_Super-resolution microscopy"
+	"edamontology_Structured illumination microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Structured illumination microscopy" -> "edamontology_Super-resolution microscopy"
+	"edamontology_Stimulated emission depletion microscopy" [color="#236A65" fontcolor="#236A65"]
+	"edamontology_Stimulated emission depletion microscopy" -> "edamontology_Super-resolution microscopy"
+}

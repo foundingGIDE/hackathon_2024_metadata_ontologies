@@ -1,0 +1,77 @@
+FBbi label	Fbbi URL	Fbbi subclass of	Fbbi subclass of label	description/definition	Notes	EDAM Direct hit	EDAM Drect hit label	EDAM subclass of	EDAM subclass_of label	EDAM superclass of	EDAM superclass-of label
+imaging method	http://purl.obolibrary.org/obo/FBbi_00000222					No need to map?					
+portrayed image	http://purl.obolibrary.org/obo/FBbi_00000266					No need to map?					
+diagram	http://purl.obolibrary.org/obo/FBbi_00000033					No need to map?					
+graphic illustration	http://purl.obolibrary.org/obo/FBbi_00000223					No need to map?					
+camera lucida assisted graphic	http://purl.obolibrary.org/obo/FBbi_00000228					No need to map?					
+computer graphic	http://purl.obolibrary.org/obo/FBbi_00000224					No need to map?					
+animation	http://purl.obolibrary.org/obo/FBbi_00000267					No need to map?					
+black and white graphic	http://purl.obolibrary.org/obo/FBbi_00000225					No need to map?					
+color graphic	http://purl.obolibrary.org/obo/FBbi_00000226					No need to map?					
+grey scale graphic	http://purl.obolibrary.org/obo/FBbi_00000227					No need to map?					
+free hand graphic	http://purl.obolibrary.org/obo/FBbi_00000229					No need to map?					
+line art graphic	http://purl.obolibrary.org/obo/FBbi_00000230					No need to map?					
+charcoal pencil graphic	http://purl.obolibrary.org/obo/FBbi_00000231					No need to map?					
+colored pencil graphic	http://purl.obolibrary.org/obo/FBbi_00000232					No need to map?					
+graphite pencil graphic	http://purl.obolibrary.org/obo/FBbi_00000233					No need to map?					
+painted graphic	http://purl.obolibrary.org/obo/FBbi_00000235					No need to map?					
+pen and ink graphic	http://purl.obolibrary.org/obo/FBbi_00000234					No need to map?					
+montage	http://purl.obolibrary.org/obo/FBbi_00000261					No need to map?					
+recorded image	http://purl.obolibrary.org/obo/FBbi_00000265					No need to map?					
+macroscopy	http://purl.obolibrary.org/obo/FBbi_00000240	http://purl.obolibrary.org/obo/FBbi_00000265	recorded image		proposed hierarchical placement	no direct hit		http://edamontology.org/topic_3382	Imaging		
+microscopy	http://purl.obolibrary.org/obo/FBbi_00000241					http://edamontology.org/topic_Microscopy	Microscopy	http://edamontology.org/topic_3382	Imaging		
+microscopy with lenses	http://purl.obolibrary.org/obo/FBbi_00000343				proposed hierarchical placement	no direct hit		http://edamontology.org/topic_Microscopy	Microscopy	http://edamontology.org/topic_3385	Light microscopy
+electron microscopy	http://purl.obolibrary.org/obo/FBbi_00000256					http://edamontology.org/topic_0611	Electron microscopy	http://edamontology.org/topic_Microscopy	Microscopy		
+EDAX imaging	http://purl.obolibrary.org/obo/FBbi_00000382				proposed hierarchical placement	no direct hit		http://edamontology.org/topic_0611	Electron microscopy		
+EELS imaging	http://purl.obolibrary.org/obo/FBbi_00000381				proposed hierarchical placement	no direct hit		http://edamontology.org/topic_0611	Electron microscopy		
+scanning electron microscopy (SEM)	http://purl.obolibrary.org/obo/FBbi_00000257				proposed hierarchical placement	no direct hit		http://edamontology.org/topic_0611	Electron microscopy		
+back-scattered_electron imaging	http://purl.obolibrary.org/obo/FBbi_00000373				proposed hierarchical placement	no direct hit		http://purl.obolibrary.org/obo/FBbi_00000257	scanning electron microscopy (SEM)		
+focussed ion beam scanning electron microscopy (FIB-SEM)	http://purl.obolibrary.org/obo/FBbi_00050000					http://edamontology.org/topic__R9zg34pnGmTyzPidJj9vfJt	Focused ion beam scanning electron microscopy				
+serial block face SEM (SBFSEM)	http://purl.obolibrary.org/obo/FBbi_00000585					http://edamontology.org/topic__RByvmgDpAo4FOrMdvTm1gwR	Serial block-face scanning electron microscopy				
+secondary_electron imaging	http://purl.obolibrary.org/obo/FBbi_00000373					no direct hit		http://edamontology.org/topic_0611	Electron microscopy		
+scanning-transmission electron microscopy	http://purl.obolibrary.org/obo/FBbi_00000380					http://edamontology.org/topic__RXLeVr0cHSXzTSRyO5zwZD					
+transmission electron microscopy (TEM)	http://purl.obolibrary.org/obo/FBbi_00000258							http://edamontology.org/topic_0611	Electron microscopy		
+high-voltage electron microscopy (HVEM)	http://purl.obolibrary.org/obo/FBbi_00000622					no direct hit		http://purl.obolibrary.org/obo/FBbi_00000380	scanning-transmission electron microscopy		
+intermediate voltage electron microacopy (IVEM)	http://purl.obolibrary.org/obo/FBbi_00000623					no direct hit		http://purl.obolibrary.org/obo/FBbi_00000380	scanning-transmission electron microscopy		
+light microscopy	http://purl.obolibrary.org/obo/FBbi_00000345					http://edamontology.org/topic_3385	Light microscopy				
+bright-field microscopy	http://purl.obolibrary.org/obo/FBbi_00000243					http://edamontology.org/topic__RDdX0TswBVhmWiS1dI3pghN					
+CARS	http://purl.obolibrary.org/obo/FBbi_00000370					no direct hit		0	Light microscopy		
+dark-field microscopy	http://purl.obolibrary.org/obo/FBbi_00000244					http://edamontology.org/topic__R89wYXZ2735GXdn4m4GOT9n	Dark-field microscopy				
+evanescent wave scattering	http://purl.obolibrary.org/obo/FBbi_00000616					no direct hit		0	Dark-field microscopy		
+differential interference contrast microscopy	http://purl.obolibrary.org/obo/FBbi_00000245					http://edamontology.org/topic__RNFOzq5E0ZVBh5Euhn06rn					
+fluorescence microscopy	http://purl.obolibrary.org/obo/FBbi_00000246					http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy				
+confocal microscopy	http://purl.obolibrary.org/obo/FBbi_00000251					http://edamontology.org/topic__R9Cmje2ZUXyDW6aQAvFhwSM	Confocal microscopy				
+array-scan confocal microscopy	http://purl.obolibrary.org/obo/FBbi_00000393					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+single-spot confocal microscopy	http://purl.obolibrary.org/obo/FBbi_00000252					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+slit-scan confocal microscopy	http://purl.obolibrary.org/obo/FBbi_00000392					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+spinning disk confocal microscopy	http://purl.obolibrary.org/obo/FBbi_00000253					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+evanescent wave microscopy	http://purl.obolibrary.org/obo/FBbi_00000617					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+FLIM	http://purl.obolibrary.org/obo/FBbi_00000368					http://edamontology.org/topic___Fluorescence_lifetime_imaging					
+FLIP	http://purl.obolibrary.org/obo/FBbi_00000365					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy	http://edamontology.org/topic___Fluorescence_recovery_after_photobleaching	
+FRAP	http://purl.obolibrary.org/obo/FBbi_00000366					http://edamontology.org/topic___Fluorescence_recovery_after_photobleaching					
+fluorescence polarization microscopy	http://purl.obolibrary.org/obo/FBbi_00000603					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+FRET	http://purl.obolibrary.org/obo/FBbi_00000367					http://edamontology.org/topic___Foerster_resonance_energy_transfer					
+multi-photon microscopy	http://purl.obolibrary.org/obo/FBbi_00000255					http://edamontology.org/topic__RBKlmE9DGTZwEwxw0juThGg	Multi-photon microscopy				
+two-photon laser scanning microscopy	http://purl.obolibrary.org/obo/FBbi_00000254					no direct hit		http://purl.obolibrary.org/obo/FBbi_00000255	multi-photon microscopy		
+SPIM	http://purl.obolibrary.org/obo/FBbi_00000369					no direct hit		http://edamontology.org/topic_Fluorescent_microscopy	Fluorescence microscopy		
+OCT	http://purl.obolibrary.org/obo/FBbi_00000371					no direct hit		http://edamontology.org/topic_3385	Light microscopy		
+phase contrast microscopy	http://purl.obolibrary.org/obo/FBbi_00000247					http://edamontology.org/topic__RtBCcu7zJiS0phrbR2HzAI	Phase-contrast microscopy				
+polarization microscopy	http://purl.obolibrary.org/obo/FBbi_00000248					no direct hit		http://edamontology.org/topic_3385	Light microscopy		
+orientation-independent polarization microscopy	http://purl.obolibrary.org/obo/FBbi_00000351					no direct hit		http://purl.obolibrary.org/obo/FBbi_00000248	polarization microscopy		
+time lapse microscopy	http://purl.obolibrary.org/obo/FBbi_00000249					no direct hit		http://edamontology.org/topic_3385	Light microscopy		
+scanning probe microscopy	http://purl.obolibrary.org/obo/FBbi_00000344					no direct hit		http://edamontology.org/topic_Microscopy	Microscopy		
+atomic force microscopy	http://purl.obolibrary.org/obo/FBbi_00000259			the scanning probe is maintained at a fixed distance above the surface e of the specimen by van der Waals forces		http://edamontology.org/topic_____Atomic_force_microscopy		http://edamontology.org/topic_____Force_microscopy	Force microscopy		
+nearfield scanning optical microscopy (ANSOM)	http://purl.obolibrary.org/obo/FBbi_00000348					no direct hit		http://edamontology.org/topic_Microscopy	Microscopy		
+ANSOM	http://purl.obolibrary.org/obo/FBbi_00000349					no direct hit		http://purl.obolibrary.org/obo/FBbi_00000348	nearfield scanning optical microscopy (ANSOM)		
+scanning tunneling microscopy	http://purl.obolibrary.org/obo/FBbi_00000347					no direct hit		http://purl.obolibrary.org/obo/FBbi_00000344	scanning probe microscopy		
+X-ray microscopy	http://purl.obolibrary.org/obo/FBbi_00000260					http://edamontology.org/topic_____X-ray_microscopy					
+radiography	http://purl.obolibrary.org/obo/FBbi_00001000					no direct hit	-	http://edamontology.org/topic_3382	Imaging		
+X-ray radiography	http://purl.obolibrary.org/obo/FBbi_00001001					http://edamontology.org/topic______X_ray_imaging	X-ray imaging				
+X-ray microscopy	http://purl.obolibrary.org/obo/FBbi_00000260					http://edamontology.org/topic_____X-ray_microscopy	X-ray microscopy				
+X-ray tomography	http://purl.obolibrary.org/obo/FBbi_00001003					no direct hit	-	http://edamontology.org/topic_____X-ray_microscopy	X-ray microscopy		
+X-ray computed tomography	http://purl.obolibrary.org/obo/FBbi_00001002				no additional information in this row	no direct hit	-				
+tomography	http://purl.obolibrary.org/obo/FBbi_00001004					http://edamontology.org/topic_3452	Tomography				
+computed tomography	http://purl.obolibrary.org/obo/FBbi_00001005					http://edamontology.org/topic__RxfmHE99gOkUOOML5krfsJ	Computed tomography				
+X-ray computed tomography	http://purl.obolibrary.org/obo/FBbi_00001002				not found in EDAM , but there is a microtomography	no direct hit	-	http://edamontology.org/topic__RxfmHE99gOkUOOML5krfsJ	Computed tomography	http://edamontology.org/topic______Computed_microtomography	X-ray microtomography
+X-ray tomography	http://purl.obolibrary.org/obo/FBbi_00001003					no direct hit	-	http://edamontology.org/topic_3452	Tomography	http://edamontology.org/topic_____Soft_x-ray_tomography	Soft X-ray tomography
+X-ray computed tomography	http://purl.obolibrary.org/obo/FBbi_00001002				no additional information in this row	no direct hit	-				

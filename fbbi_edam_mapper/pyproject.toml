@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fbbi-edam-mapper"
+version = "0.1.0"
+description = ""
+authors = ["Francois <fsherwood@ebi.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rdflib = "^7"
+python-levenshtein = "^0.26"
+graphviz = "^0.20.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

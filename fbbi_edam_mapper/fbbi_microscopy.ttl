@@ -1,0 +1,430 @@
+@prefix ns1: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix ns2: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:FBbi_00000243 a owl:Class ;
+    rdfs:label "bright-field microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000243"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000245 a owl:Class ;
+    rdfs:label "differential interference contrast microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:hasRelatedSynonym "DIC"^^xsd:string,
+        "Nomarski"^^xsd:string ;
+    ns1:id "FBbi:00000245"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000247 a owl:Class ;
+    rdfs:label "phase contrast microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000247"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000249 a owl:Class ;
+    rdfs:label "time lapse microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000249"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000345 .
+
+ns2:FBbi_00000252 a owl:Class ;
+    rdfs:label "single-spot confocal microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000252"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000251 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000253 a owl:Class ;
+    rdfs:label "spinning disk confocal microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000253"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000251 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000254 a owl:Class ;
+    rdfs:label "two-photon laser scanning microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000254"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000255 .
+
+ns2:FBbi_00000259 a owl:Class ;
+    rdfs:label "atomic force microscopy"^^xsd:string ;
+    ns2:IAO_0000115 "the scanning probe is maintained at a fixed distance above the surface e of the specimen by van der Waals forces"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000259"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000344 .
+
+ns2:FBbi_00000260 a owl:Class ;
+    rdfs:label "X-ray microscopy"^^xsd:string ;
+    ns1:hasDbXref "http://en.wikipedia.org/wiki/X-ray_microscope"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000260"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000241,
+        ns2:FBbi_00001001 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000347 a owl:Class ;
+    rdfs:label "scanning tunneling microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T10:19:35Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000347"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000344 .
+
+ns2:FBbi_00000349 a owl:Class ;
+    rdfs:label "ANSOM"^^xsd:string ;
+    ns2:IAO_0000115 "Aperture-less NSOM."^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T10:20:01Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000349"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000348 .
+
+ns2:FBbi_00000351 a owl:Class ;
+    rdfs:label "orientation-independent polarization microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T10:25:08Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000351"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000248 .
+
+ns2:FBbi_00000366 a owl:Class ;
+    rdfs:label "FRAP"^^xsd:string ;
+    ns2:IAO_0000115 "Fluorescence loss in photobleaching; a method of determining the rate and extent of exchange between a localized population of fluorophore and a non-localized diffusible pool, by observing the rate of recovery of brightness of the localized population after photobleaching."^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:09:33Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000366"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000365 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000367 a owl:Class ;
+    rdfs:label "FRET"^^xsd:string ;
+    ns2:IAO_0000115 "Fluorescence (or Forster) resonance energy transfer; a method of estimating the distance between two fluorophores by measuring the extent of non-radiative energy transfer between the two. Experimentally, this involves selective excitation of one while observing emission from the other."^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:09:33Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000367"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000246 .
+
+ns2:FBbi_00000368 a owl:Class ;
+    rdfs:label "FLIM"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:09:33Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000368"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000246 .
+
+ns2:FBbi_00000369 a owl:Class ;
+    rdfs:label "SPIM"^^xsd:string ;
+    ns2:IAO_0000115 "single (or selective) plane illumination."^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:09:33Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000369"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000246 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000370 a owl:Class ;
+    rdfs:label "CARS"^^xsd:string ;
+    ns2:IAO_0000115 "coherent Raman anti-Stokes microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:13:20Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000370"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000371 a owl:Class ;
+    rdfs:label "OCT"^^xsd:string ;
+    ns2:IAO_0000115 "optical coherence tomography; an interferometric method of imaging using back-scattered photons (elastic scattering)"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:32:19Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000371"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000345 .
+
+ns2:FBbi_00000372 a owl:Class ;
+    rdfs:label "secondary_electron imaging"^^xsd:string ;
+    ns2:IAO_0000115 "image created using the electrons generated by ionization of a sample due to inelastic scattering of the primary beam of radiation"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T08:34:44Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000372"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000257 .
+
+ns2:FBbi_00000380 a owl:Class ;
+    rdfs:label "scanning-transmission electron microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T09:12:36Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000380"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000256 .
+
+ns2:FBbi_00000381 a owl:Class ;
+    rdfs:label "EELS imaging"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T09:16:40Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:hasRelatedSynonym "EFTEM energy filtered TEM"^^xsd:string,
+        "ESI  electron spectroscopic imaging"^^xsd:string ;
+    ns1:id "FBbi:00000381"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000256 .
+
+ns2:FBbi_00000382 a owl:Class ;
+    rdfs:label "EDAX imaging"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T09:16:40Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000382"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000256 .
+
+ns2:FBbi_00000392 a owl:Class ;
+    rdfs:label "slit-scan confocal microscopy"^^xsd:string ;
+    ns2:IAO_0000115 "illumination and detection via a thin slit"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T10:32:36Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000392"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000251 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000393 a owl:Class ;
+    rdfs:label "array-scan confocal microscopy"^^xsd:string ;
+    ns2:IAO_0000115 "Fixed array of sources focused to an array of spots that is swept over the specimen in raster fashion"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T10:35:43Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000393"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000251 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000585 a owl:Class ;
+    rdfs:label "serial block face SEM (SBFSEM)"^^xsd:string ;
+    ns2:IAO_0000115 "A method of reconstructing 3D structure by combining serial sectioning with scanning EM."^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-09-02T05:10:33Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000585"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000373 .
+
+ns2:FBbi_00000603 a owl:Class ;
+    rdfs:label "fluorescence polarization microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-09-04T01:28:20Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000603"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000246 .
+
+ns2:FBbi_00000616 a owl:Class ;
+    rdfs:label "evanescent wave scattering"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2011-05-23T10:09:41Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:hasRelatedSynonym "FTIR  frustrated total internal reflection"^^xsd:string ;
+    ns1:id "FBbi:00000616"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000244 .
+
+ns2:FBbi_00000617 a owl:Class ;
+    rdfs:label "evanescent wave microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2011-05-23T10:10:58Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:hasRelatedSynonym "total internal reflection fluorescence  TIRF"^^xsd:string ;
+    ns1:id "FBbi:00000617"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000246 .
+
+ns2:FBbi_00000622 a owl:Class ;
+    rdfs:label "high-voltage electron microscopy (HVEM)"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2011-05-23T10:53:45Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000622"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000258 .
+
+ns2:FBbi_00000623 a owl:Class ;
+    rdfs:label "intermediate voltage electron microacopy (IVEM)"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2011-05-23T10:53:45Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000623"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000258 .
+
+ns2:FBbi_00050000 a owl:Class ;
+    rdfs:label "focussed ion beam scanning electron microscopy (FIB-SEM)"^^xsd:string ;
+    ns2:IAO_0000115 "A method of reconstructing 3D structure by combining focussed ion beam milling to remove sucessive layers from a sample block with scanning EM to image the exposed surface between each milling step."^^xsd:string ;
+    ns1:hasExactSynonym "FIB-SEM"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00050000"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000373 .
+
+ns2:FBbi_00000244 a owl:Class ;
+    rdfs:label "dark-field microscopy"^^xsd:string ;
+    ns2:IAO_0000115 "imaging with rejection of the unscattered illumination (removal of the zero order component of the diffracted wave)"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000244"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000248 a owl:Class ;
+    rdfs:label "polarization microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000248"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000255 a owl:Class ;
+    rdfs:label "multi-photon microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000255"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000246 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000348 a owl:Class ;
+    rdfs:label "nearfield scanning optical microscopy (ANSOM)"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T10:19:35Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000348"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000344 .
+
+ns2:FBbi_00000365 a owl:Class ;
+    rdfs:label "FLIP"^^xsd:string ;
+    ns2:IAO_0000115 "Fluorescence loss in photobleaching; a method of determining whether two populations of fluorophore are in diffusive communication with one another by observing the decrease in brightness of one population when the other population is subjected to continuous photobleaching."^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-11T10:09:33Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000365"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000246 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000257 a owl:Class ;
+    rdfs:label "scanning electron microscopy (SEM)"^^xsd:string ;
+    ns2:IAO_0000115 "image is formed by scanning the surface of the specimen with a beam of electrons in a raster pattern"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000257"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000256 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000258 a owl:Class ;
+    rdfs:label "transmission electron microscopy (TEM)"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000258"^^xsd:string ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000256 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000343 a owl:Class ;
+    rdfs:label "microscopy with lenses"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T04:04:04Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000343"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000241 .
+
+ns2:FBbi_00000373 a owl:Class ;
+    rdfs:label "back-scattered_electron imaging"^^xsd:string ;
+    ns2:IAO_0000115 "imaged formed using electrons undergoing elastic scattering at very high angles, with emission of characteristic X-rays"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-12T08:40:37Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000373"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000257 .
+
+ns2:FBbi_00000241 a owl:Class ;
+    rdfs:label "microscopy"^^xsd:string ;
+    ns2:IAO_0000115 "methods for forming images of objects too small to be observed with the unaided eye"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000241"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf ns2:FBbi_00000265 .
+
+ns2:FBbi_00000344 a owl:Class ;
+    rdfs:label "scanning probe microscopy"^^xsd:string ;
+    ns2:IAO_0000115 "imaging by means of a physical probe that passes over the sample"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T04:04:04Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000344"^^xsd:string ;
+    rdfs:subClassOf ns2:FBbi_00000241 .
+
+ns2:FBbi_00000251 a owl:Class ;
+    rdfs:label "confocal microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000251"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        [ ],
+        ns2:FBbi_00000246 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000256 a owl:Class ;
+    rdfs:label "electron microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:hasRelatedSynonym "mode of electron microscopy"^^xsd:string ;
+    ns1:id "FBbi:00000256"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000343 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000246 a owl:Class ;
+    rdfs:label "fluorescence microscopy"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:id "FBbi:00000246"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000345 ;
+    owl:equivalentClass [ ] .
+
+ns2:FBbi_00000345 a owl:Class ;
+    rdfs:label "light microscopy"^^xsd:string ;
+    ns1:created_by "jm"^^xsd:string ;
+    ns1:creation_date "2010-03-09T04:18:03Z"^^xsd:string ;
+    ns1:hasOBONamespace "image"^^xsd:string ;
+    ns1:hasRelatedSynonym "mode of light microscopy"^^xsd:string ;
+    ns1:id "FBbi:00000345"^^xsd:string ;
+    ns1:inSubset <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> ;
+    rdfs:subClassOf [ ],
+        ns2:FBbi_00000343 ;
+    owl:equivalentClass [ ] .
+
