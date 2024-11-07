@@ -18,9 +18,13 @@ This script takes two ontologies and compares lables and other string naming to 
 
 This script takes ontologies and a starting class, and returns all statements in the ontology for the classes below (& including) the class in the taxonomic hierarchy. Writes out the new taxonomic hierarchy in ttl. Does not handle restriction classes used in the class hierarchy.
 
+![](onto-mapper_filter.png)
+
 ## Script 3: mapping.py
 
 Using direct mappings in the mapping tsv (in mapping/ directory) finds the unmapped classes that are children of mapped classes, and reparents them into a new taxonomy. Outputs ttl of new ontology definition.
+
+![](onto-mapper_mapping.png)
 
 ## Script 4: mapping_viz.py
 Takes a ttl file, creates a hierarchy of Nodes, and renders the graph of the taxonomies. Shows the combined tree colour coding classes based on their original ontology.
