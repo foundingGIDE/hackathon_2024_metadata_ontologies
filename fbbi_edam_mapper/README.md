@@ -5,7 +5,7 @@ The main focus of this code was the FBBI (https://ontobee.org/ontology/FBbi) and
 
 ## Installation
 
-Using poerty, run `poetry init` to create a virtual enviroment with all required dependencies.
+Using poetry, run `poetry init` to create a virtual enviroment with all required dependencies.
 
 Can then run the individual scripts within your virtual env (as you would run a script, e.g. python3 /path/to/script.py) - there isn't a command line option.
 
